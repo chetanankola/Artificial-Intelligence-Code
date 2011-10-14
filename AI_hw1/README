@@ -1,0 +1,23 @@
+/*
+./CS561.exe -BFS grid1.txt
+./CS561.exe -DFS -stats grid1.txt
+• -BFS
+  Agent runs breadth-first search.
+• -DFS
+  Agent runs depth-first search.
+• -Astar
+  Agent runs A* search.
+                                  2
+• -UCS
+  Agent runs Uniform-cost search.
+• -stats
+  Your program should output the following information in addition to the final path:
+     – The number of nodes expanded.
+     – The length of the final path.
+     – The ratio of nodes on the final path to nodes expanded.
+     – The estimate of the total cost (as determined by the heuristic) from the start to the end (h(startstate)).
+• -AltH
+  (Only used with A* search.) Agent uses the heuristic you designed (rather than Manhattan distance).
+• -AltC
+  (Only used with A* or UCS.) Agent uses bottom-favoring cost function.
+*/
